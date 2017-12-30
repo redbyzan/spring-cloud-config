@@ -1,0 +1,8 @@
+spring:
+  profiles: prod
+  
+roger:
+  profile: i'm prod
+  said:
+    first: hello
+    second: world

@@ -1,0 +1,8 @@
+spring:
+  profiles: local
+  
+roger:
+  profile: i'm local
+  said:
+    first: hello
+    second: world

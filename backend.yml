@@ -1,0 +1,27 @@
+spring:
+  profiles: local
+
+roger:
+  said:
+    first: backend service say local hello
+    second: world
+
+---  
+
+spring:
+  profiles: dev
+
+roger:
+  said:
+    first: backend service say dev hello
+    second: world!!!!!!!! Spring MSA!!
+
+---
+
+spring:
+  profiles: prod
+
+roger:
+  said:
+    first: backend service say prod hello
+    second: world    
